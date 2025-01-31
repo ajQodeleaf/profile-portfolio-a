@@ -52,7 +52,7 @@ export const educationData = [
     startYear: "2014",
     endMonth: "May",
     endYear: "2018",
-    course:"Bachelor of Technology",
+    course: "Bachelor of Technology",
     institute: "Indian Institute of Technology, Indore",
     grade: "8+",
   },
@@ -61,7 +61,7 @@ export const educationData = [
     endMonth: "June",
     startYear: "2020",
     endYear: "2023",
-    course:"Class XII",
+    course: "Class XII",
     institute: "Christ Jyoti Senior Secondary School, Satna",
     grade: "8+",
   },
@@ -70,7 +70,7 @@ export const educationData = [
     endMonth: "November",
     startYear: "2019",
     endYear: "2020",
-    course:"Class X",
+    course: "Class X",
     institute: "Christukula Mission Higher Secondary School, Satna",
     grade: "8+",
   },
@@ -79,18 +79,28 @@ export const educationData = [
 export const skills = ["Solidity", "Go", "JavaScript", "Blockchain & Web3", "Smart Contracts", "Hardhat", "Git", "NextJS"];
 
 export const profileData = {
-    backgroundImage: "/landing.avif",
-    profileImage: "/aryan.jpeg",
-    name: "Aryan Soni",
-    title: "SENIOR SMART CONTRACT DEVELOPER",
-    phone: "+91-9406561205",
-    email: "aryan.s400029@gmail.com",
-    address: "Indore, India",
-    dob: "January 27, 1995",
+  backgroundImage: "/landing.avif",
+  profileImage: "/aryan.jpeg",
+  name: "Aryan Soni",
+  title: "SENIOR SMART CONTRACT DEVELOPER",
+  phone: "+91-9406561205",
+  email: "aryan.s400029@gmail.com",
+  address: "Indore, India",
+  dob: "January 27, 1995",
 };
 
 export const clientsData = {
-    deqode: { src: "/deqode.svg", alt: "Deqode", width: 120, height: 60 },
-    petachain: { src: "/petachain.png", alt: "Petachain", width: 60, height: 60 },
-    tokamak: { src: "/Tokamak.svg", alt: "Tokamak", width: 60, height: 60 },
-  };
+  deqode: { src: "/deqode.svg", alt: "Deqode", width: 120, height: 60 },
+  petachain: { src: "/petachain.png", alt: "Petachain", width: 60, height: 60 },
+  tokamak: { src: "/Tokamak.svg", alt: "Tokamak", width: 60, height: 60 },
+};
+
+
+export const navItems = [
+  { id: "experience", label: "EXPERIENCE" },
+  { id: "education", label: "EDUCATION" },
+  { id: "clients", label: "CLIENTS" },
+  { id: "skills", label: "SKILLS" },
+  { id: "expertise", label: "EXPERTISE" },
+  { id: "contact", label: "CONTACT" },
+];

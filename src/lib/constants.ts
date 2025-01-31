@@ -1,3 +1,42 @@
+import { FaLinkedinIn } from "react-icons/fa6";
+import { SlSocialLinkedin } from "react-icons/sl";
+import { VscGithub } from "react-icons/vsc";
+import { VscGithubInverted } from "react-icons/vsc";
+import { IoMailSharp } from "react-icons/io5";
+import { IoMailOutline } from "react-icons/io5";
+
+export const profileData = {
+  backgroundImage: "/landing.avif",
+  profileImage: "/aryan.jpeg",
+  name: "Aryan Soni",
+  title: "SENIOR SMART CONTRACT DEVELOPER",
+  phone: "+91-9406561205",
+  email: "aryan.s400029@gmail.com",
+  address: "Indore, India",
+  dob: "January 27, 1995",
+  introduction:"Results-driven Senior Smart Contract Developer with extensive experience in designing and implementing complex decentralized finance (DeFi) solutions. Proficient in developing matching engine components, automated market makers (AMMs), and perpetual futures with robust contract integration. Demonstrated expertise in deploying solutions on Layer 2 networks such as Polygon, Arbitrum, and Optimism, ensuring scalability and efficiency.\nSkilled in crafting secure Solidity contracts adhering to ERC-20 standards, incorporating advanced security measures to safeguard user funds. Proven track record in implementing decentralized oracle solutions for accurate price feeds, as well as designing comprehensive perpetual settlement mechanisms utilizing Chainlink oracles.",
+  socialLinks: [
+    {
+      href: "https://www.linkedin.com/in/aryan-soni-329297317/",
+      icon: SlSocialLinkedin,
+      iconAlt: FaLinkedinIn,
+      label: "LinkedIn",
+    },
+    {
+      href: "https://github.com/aryansonid",
+      icon: VscGithub,
+      iconAlt: VscGithubInverted,
+      label: "GitHub",
+    },
+    {
+      href: "mailto:aryan.s400029@gmail.com",
+      icon: IoMailOutline,
+      iconAlt: IoMailSharp,
+      label: "Email",
+    },
+  ],
+};
+
 export const expertiseData = [
   { category: "Blockchain Scaling", description: "Optimized sequencer performance with a 20% improvement. Improved transaction throughput and reduced latency." },
   { category: "DeFi & AMMs", description: "Developed high-throughput Perpetual Relayer service and optimized AMM with derivatives integration. Enhanced liquidity management for seamless trades." },
@@ -78,23 +117,11 @@ export const educationData = [
 
 export const skills = ["Solidity", "Go", "JavaScript", "Blockchain & Web3", "Smart Contracts", "Hardhat", "Git", "NextJS"];
 
-export const profileData = {
-  backgroundImage: "/landing.avif",
-  profileImage: "/aryan.jpeg",
-  name: "Aryan Soni",
-  title: "SENIOR SMART CONTRACT DEVELOPER",
-  phone: "+91-9406561205",
-  email: "aryan.s400029@gmail.com",
-  address: "Indore, India",
-  dob: "January 27, 1995",
-};
-
 export const clientsData = {
   deqode: { src: "/deqode.svg", alt: "Deqode", width: 120, height: 60 },
   petachain: { src: "/petachain.png", alt: "Petachain", width: 60, height: 60 },
   tokamak: { src: "/Tokamak.svg", alt: "Tokamak", width: 60, height: 60 },
 };
-
 
 export const navItems = [
   { id: "experience", label: "EXPERIENCE" },
